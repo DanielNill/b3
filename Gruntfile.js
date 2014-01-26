@@ -1,12 +1,9 @@
 module.exports = function(grunt){
   grunt.initConfig({
     concat: {
-      options: {
-        separator: ';'
-      },
       dist: {
-        src: ['*.js'],
-        dest: 'backbone_d3.js'
+        src: ['src/initialize.js', 'src/d3_model.js', 'src/d3_collection.js', 'src/d3_view.js'],
+        dest: 'b3.js',
       }
     }
   })

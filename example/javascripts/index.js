@@ -1,3 +1,4 @@
-require(["jquery", 'underscore', 'backbone', 'b3'], function(){
-  console.log("asdf")
-})
+// require(["jquery", 'underscore', 'backbone', 'd3.v3', 'b3', 'topo_json', 'bullet', 'bullet_charts', 'choropleth'], function(){
+
+// })
+

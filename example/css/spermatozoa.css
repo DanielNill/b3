@@ -1,0 +1,21 @@
+#spermatazoa {
+  background: #000;
+}
+
+ellipse {
+  fill: #fff;
+}
+
+#spermatazoa path {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+}
+
+.mid {
+  stroke-width: 4px;
+}
+
+.tail {
+  stroke-width: 2px;
+}

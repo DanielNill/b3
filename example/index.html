@@ -1,8 +1,36 @@
-<html>
+<!DOCTYPE html>
+<meta charset="utf-8">
 <head>
-  <script data-main="javascripts/index" src="javascripts/require.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/bullet.css">
+  <link rel="stylesheet" type="text/css" href="/css/zoomable_map.css">
+  <link rel="stylesheet" type="text/css" href="/css/force_directed_graph.css">
+  <link rel="stylesheet" type="text/css" href="/css/spermatozoa.css">
+  <script type="text/javascript" src="javascripts/jquery.js"></script>
+  <script type="text/javascript" src="javascripts/underscore.js"></script>
+  <script type="text/javascript" src="javascripts/backbone.js"></script>
+  <script type="text/javascript" src="javascripts/queue.min.js"></script>
+  <script type="text/javascript" src="javascripts/topo_json.js"></script>
+  <script type="text/javascript" src="javascripts/d3.v3.min.js"></script>
+  <script type="text/javascript" src="javascripts/b3.js"></script>
+  <script type="text/javascript" src="javascripts/bullet.js"></script>
 </head>
 <body>
-  index
+  <h2>Bullet Charts</h2>
+  <div id="bullet_charts" class="bullet_charts"></div>
+  <button>Update</button>
+  <br />
+  <h2>Zoomable Map</h2>
+  <div id="zoomable_map"></div>
+  <br />
+  <h2>Force Directed Graph</h2>
+  <div id="force_directed_graph"></div>
+  <br />
+  <h2>Spermatazoa</h2>
+  <div id="spermatazoa"></div>
+
+  <script type="text/javascript" src="javascripts/bullet_charts.js"></script>
+  <script type="text/javascript" src="javascripts/zoomable_map.js"></script>
+  <script type="text/javascript" src="javascripts/force_directed_graph.js"></script>
+  <script type="text/javascript" src="javascripts/spermatozoa.js"></script>
 </body>
 </html>
